@@ -18,12 +18,18 @@
       "type": "github",
       "url": "https://github.com/diggerhq/digger"
     },
-    "topbarLinks": [
+    "anchors": [
       {
-        "name": "Chat on Slack",
-        "url": "https://diggertalk.slack.com/join/shared_invite/zt-1tocl4w0x-E3RkpPiK7zQkehl8O78g8Q#/shared-invite/email"
+          "name": "Slack",
+          "icon": "slack",
+          "url": "https://diggertalk.slack.com/join/shared_invite/zt-1tocl4w0x-E3RkpPiK7zQkehl8O78g8Q#/shared-invite/email"
+      },
+      {
+          "name": "Blog",
+          "icon": "newspaper",
+          "url": "https://blog.digger.dev/"
       }
-    ],
+  ],
     "navigation": [
         {
             "group": "Introduction",
