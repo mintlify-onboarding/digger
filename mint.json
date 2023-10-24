@@ -1,0 +1,115 @@
+{
+    "name": "Digger",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#8101E4",
+      "light": "#AF48FF",
+      "dark": "#8101E4",
+      "anchors": {
+        "from": "#c44778",
+        "to": "#af54e6"
+       }
+    },
+    "topbarCtaButton": {
+      "type": "github",
+      "url": "https://github.com/diggerhq/digger"
+    },
+    "topbarLinks": [
+      {
+        "name": "Chat on Slack",
+        "url": "https://diggertalk.slack.com/join/shared_invite/zt-1tocl4w0x-E3RkpPiK7zQkehl8O78g8Q#/shared-invite/email"
+      }
+    ],
+    "navigation": [
+        {
+            "group": "Introduction",
+            "pages": [
+              "readme/introduction",
+              "readme/how-it-works"
+            ]
+        },
+        {
+            "group": "Getting Started",
+            "pages": [
+                "getting-started/github-actions-+-aws",
+                "getting-started/github-actions-and-gcp",
+                "getting-started/gitlab-pipelines-+-aws",
+                "getting-started/azure-devops"
+            ]
+        },
+        {
+            "group": "Configuration",
+            "pages": [
+                "configuration/digger.yml",
+                "configuration/versioning",
+                "configuration/disable-auto-checkout",
+                "configuration/segregate-cloud-accounts",
+                "configuration/with-terraform-workpaces",
+                "configuration/with-terragrunt",
+                "configuration/apply-on-merge",
+                "configuration/using-checkov",
+                "configuration/using-infracost",
+                "configuration/using-opa-conftest",
+                "configuration/commenting-stragegies",
+                "configuration/terragrunt-project-generation"
+            ]
+        },
+        {
+            "group": "Features",
+            "pages": [
+              "features/projects",
+              "features/workspaces",
+              "features/pr-level-locks",
+              "features/commentops",
+              "features/plan-preview",
+              "features/plan-persistence",
+              "features/custom-workflows"
+            ]
+        },
+        {
+            "group": "Digger API",
+            "pages": [
+              "digger-api/rbac-via-opa-guide"
+            ]
+        },
+        {
+            "group": "AWS-specific",
+            "pages": [
+              "cloud-providers/aws",
+              "cloud-providers/setting-up-separate-mgmt-account",
+              "cloud-providers/authenticating-with-oidc-on-aws",
+              "cloud-providers/multi-account-setup"
+            ]
+        },
+        {
+            "group": "GCP-specific",
+            "pages": [
+              "gcp/setting-up-gcp-+-gh-actions",
+              "gcp/federated-oidc-access",
+              "gcp/store-plans-in-a-bucket"
+            ]
+        },
+        {
+            "group": "Azure-specific",
+            "pages": [
+              "azure-specific/azure",
+              "azure-specific/azure-devops-locking-connection-methods"
+            ]
+        },
+        {
+            "group": "Troubleshooting Errors",
+            "pages": [
+              "troubleshooting-errors/importing-existing-resources"
+            ]
+        }
+    ],
+    "footerSocials":
+      {
+          "slack": "https://diggertalk.slack.com/join/shared_invite/zt-1tocl4w0x-E3RkpPiK7zQkehl8O78g8Q#/shared-invite/email",
+          "linkedin": "https://www.linkedin.com/company/diggerhq/"
+      }
+  }
